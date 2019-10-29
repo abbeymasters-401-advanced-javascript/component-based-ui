@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 export default function Character({ img, name, species }) {
   return (
     <>
-    <li><img src={img} /></li>
-    <li>Name: {name}</li>
-    <li>Species: {species}</li>
+      <li><img src={img} /></li>
+      <li>Name: {name}</li>
+      <li>Species: {species}</li>
     </>
-  )
+  );
 }
 
 Character.propTypes = {
