@@ -7,10 +7,17 @@ ul {
 
 li {
   margin-top: 2%;
+  width: 300px;
   padding: 1%;
+  overflow-wrap: wrap;
   list-style: none;  
   border: solid black 2px;
   margin-right: 1%;
+  transition: background-color .5s;
+}
+
+li:hover {
+  background-color: gold;
 }
 
 li h2 {
