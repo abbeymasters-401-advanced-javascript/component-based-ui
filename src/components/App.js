@@ -7,7 +7,7 @@ const App = () => (
   <React.Fragment>
     <Header />
     <ul>
-    <Character
+      <Character
         img="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
         name="Alan Rails"
         species="Human" />

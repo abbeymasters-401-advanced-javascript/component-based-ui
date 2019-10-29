@@ -13,11 +13,12 @@ li {
   list-style: none;  
   border: solid black 2px;
   margin-right: 1%;
+  border-radius: 5px;
   transition: background-color .5s;
 }
 
 li:hover {
-  background-color: gold;
+  background-color: orange;
 }
 
 li h2 {
