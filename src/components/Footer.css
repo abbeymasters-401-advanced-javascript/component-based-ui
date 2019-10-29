@@ -1,0 +1,13 @@
+footer {
+  font-family: Staatliches;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+  border-top: solid black 2px;
+}
+
+p {
+  margin-top: 2%;
+}
