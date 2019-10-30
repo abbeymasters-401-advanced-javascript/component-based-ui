@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// import items from '../../character-data';
+
 
 const List = ({ items, Component }) => {
   const characters = items.map(item => {
@@ -9,11 +11,7 @@ const List = ({ items, Component }) => {
   });
   return (
     <>
-      <ul>
-        <li>
-          {characters}
-        </li>
-      </ul>
+      {characters}
     </>
   );
 };
