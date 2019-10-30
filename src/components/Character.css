@@ -1,0 +1,32 @@
+ul { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+li {
+  margin-top: 2%;
+  width: 300px;
+  padding: 1%;
+  overflow-wrap: wrap;
+  list-style: none;  
+  border: solid black 2px;
+  margin-right: 1%;
+  border-radius: 5px;
+  transition: background-color .5s;
+}
+
+li:hover {
+  background-color: orange;
+}
+
+li h2 {
+  font-family: Staatliches;
+  font-size: 30px;
+}
+
+li p {
+  font-family: Georgia;
+  font-size: 22px;
+}
