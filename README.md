@@ -15,3 +15,11 @@ BONUS:
 
 * Add some creative styling for the header in a Header.css file
 * Create a file called Character.css and import that into the Character component
+
+## Scripts
+— "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
+— "build": "webpack -p --devtool source-map"
+
+## Submission Links
+* [GitHub] (https://github.com/abbeymasters-401-advanced-javascript/component-based-ui/pull/1) 
+* [Travis] (https://travis-ci.com/abbeymasters-401-advanced-javascript/component-based-ui/builds/134133294)
